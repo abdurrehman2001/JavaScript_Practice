@@ -129,3 +129,32 @@ value_two = 10;
 // result_value = document.write((value_one /= value_two) + "<br />")
 // result_value = document.write((value_one %= value_two) + "<br />")
 // result_value = document.write((value_one **= value_two) + "<br />")
+
+
+//                      Google Chrome Console
+
+
+/*
+        console.time()
+        console.log()
+        console.error()
+        console.warn()
+        colosole.table()
+        console.clear()
+        console.timeEnd()
+*/
+var abc = "hello world";
+
+// console.time("Testing..........!!")
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+// console.error(['hello', 'world', 'for', 'pakistan']);
+
+// console.timeEnd("Testing..........!!")
+
+
