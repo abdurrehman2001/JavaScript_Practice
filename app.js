@@ -67,3 +67,30 @@ x = {
 //document.write(x)
 //document.write("<br />")
 //document.write(typeof x)  // javascript ka 'in-built' function hai typeof
+
+
+//                                  Arithmetic Operators
+
+
+/*
+    + ===> Addition                  ye jama ka kam krta hai
+    - ===> Subtraction               ye mainas ka kam krta hai
+    * ===> Multiplication            ye multiply ka kam krta hai (mtlb zarab dene ka)
+    ** ===> Exponentiation           ye power bn jati hai jo nmbr k upr likhi hui hoti hai
+    / ===> Division                  ye divide ka kam krti hai 
+    % ===> Modulus (Remainder)       ye divide ke bad jo value bachti hai uska kam krti hai
+    ++ ===> Increment                ye jo bhi value hoti hai usme plus 1 krti hai
+    -- ===> Decrement                ye jo bhi value hoti hai usme se mainas 1 kr deti hai
+*/
+
+var ab, ad, result;
+ab = 2;
+ad = 3;
+// result = document.write("Ye addition value hai " + (ab + ad) + "<br />")
+// result = document.write("ye subtraction value hai " + (ab - ad) + "<br />")
+// result = document.write("ye multiply valur hai " + (ab * ad)+ "<br />")
+// result = document.write("ye power value hai " + (ab ** ad) + "<br />")
+// result = document.write("ye divide value hai " + (ab / ad) + "<br />")
+// result = document.write("ye modulus value hai " + (ab % ad) + "<br />")
+// result = document.write("ye increment value hai " + (++ab) + "<br />")
+// result = document.write("ye decrement value hai " + (--ab) + "<br />")
