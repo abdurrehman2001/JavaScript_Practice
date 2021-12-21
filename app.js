@@ -46,4 +46,24 @@ first = "world";
 const first_value = "hello world";
 //first_value = "hellooo"; // aur na hi value ko update kr skte hen..
 // const first_value ="Hello duniya" // ye smjhane k liye k ussi name se declare nhi kr skte 
-document.write(first_value)
+// document.write(first_value)
+
+//                            Data Type In JavaScript
+
+/*  Agr koi value jo boolean hai aur hm string me denge to string
+    smjhi jaegi aur arry obj ko obj hi smjh raha hai koi khas nh h OK
+*/
+
+var x = "hello"; // ======> String
+x = 20; // ====> Number
+x = true // boolean true or false dono boolean
+x = undefined; // undefined set value
+x = null; // null meaning k kuch nh h value me
+x = ['HTML', 'CSS', 'JS']   // Array
+x = {
+    name: "yahhhoooo",
+    country: "pakistan"
+}   //  Object
+//document.write(x)
+//document.write("<br />")
+//document.write(typeof x)  // javascript ka 'in-built' function hai typeof
