@@ -157,4 +157,7 @@ var abc = "hello world";
 
 // console.timeEnd("Testing..........!!")
 
+//                                 Comparison Operators
+// console.log(50 === 30)
+// console.log(60 !== 60);
 
