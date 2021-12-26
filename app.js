@@ -222,3 +222,8 @@ var age = 20;
 // else {
 //     console.log('invalid percentage');
 // }
+
+//                               Conditional Ternary Operator
+
+// var num = prompt("value");
+// (num <= 100) ? console.log("ye value match hogyi 100 k andar . ") : (num <= 500) ? console.log("Ye value match ho gyi 500 k andar . ") : console.log("ye value sai hai")
