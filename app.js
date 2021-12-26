@@ -192,6 +192,33 @@ var age = 20;
 // if(Genger == "Female"){
 //     console.log(`Welcome Miss ${Name_User}`);
 // }
+// else if(Name_User == "" && Genger == ""){
+//     console.log("Plz Fill Requirment");
+// }
 // else{
 //     console.log(`Welcome Sir ${Name_User}`);
+// }
+
+
+//                           If Else If Statement
+
+// var per = prompt("val");
+
+// if (per >= 80 && per <= 100) {
+//     console.log('Topper');
+// }
+// else if (per >= 60 && per < 80) {
+//     console.log('Second');
+// }
+// else if (per >= 45 && per < 60) {
+//     console.log('Third');
+// }
+// else if (per >= 33 && per < 45) {
+//     console.log("Just pass");
+// }
+// else if (per < 33) {
+//     console.log('fail');
+// }
+// else {
+//     console.log('invalid percentage');
 // }
