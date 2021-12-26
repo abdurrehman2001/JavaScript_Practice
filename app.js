@@ -161,3 +161,37 @@ var abc = "hello world";
 // console.log(50 === 30)
 // console.log(60 !== 60);
 
+//                  If Statement 
+
+if (20 != 20) {
+    alert("Value is Grater")
+}
+
+//                               Logical Operators
+
+
+var age = 20;
+// if (age >= 19 && age <= 18){
+//     console.log("nhi chalegi")
+// }
+// console.log(age >= 19 && age <= 18);
+
+
+// if (age >= 20 || age < 18) {
+//     console.log("chalegi")
+// }
+
+//                            If Else Statement
+/*  
+    Ye code is liye comment kiya hai k aage coding kr sken nh to bar bar chalta rahega
+*/
+
+
+// var Name_User = prompt("Enter Your Name")
+// var Genger = prompt("Enter Your gender")
+// if(Genger == "Female"){
+//     console.log(`Welcome Miss ${Name_User}`);
+// }
+// else{
+//     console.log(`Welcome Sir ${Name_User}`);
+// }
