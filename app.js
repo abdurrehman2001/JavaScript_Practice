@@ -275,4 +275,15 @@ var age = 20;
 //     default:
 //         console.log("You are Kid...!");
 //         break;
-// }
+// } 
+
+//                            Confirm Box
+
+var box = confirm("Aur You Connect With Our Website..?")
+
+if (box) {
+    alert("Thanks for you connect our website")
+}
+else {
+    alert("Sorry try again later....!")
+}
