@@ -227,3 +227,52 @@ var age = 20;
 
 // var num = prompt("value");
 // (num <= 100) ? console.log("ye value match hogyi 100 k andar . ") : (num <= 500) ? console.log("Ye value match ho gyi 500 k andar . ") : console.log("ye value sai hai")
+
+
+//                                    Switch Case
+
+// var day = +prompt("Enter Your Day In Number..!")
+
+// switch (day) {
+//     case 0:
+//         console.log("Today Is Monday...");
+//         break;
+//     case 1:
+//         console.log("Today Is Tuesday...");
+//         break;
+//     case 2:
+//         console.log("Today Is Wednesday...");
+//         break;
+//     case 3:
+//         console.log("Today Is Thursday...");
+//         break;
+//     case 4:
+//         console.log("Todat Is Friday...");
+//         break;
+//     case 5:
+//         console.log("Today Is Saturday...");
+//         break;
+//     case 6:
+//         console.log("Today Is Sunday...");
+//         break;
+//     default:
+//         console.log("Enter Your Vaild Day Number In 0 to 6...!");
+//         break;
+// }
+
+
+//                          Switch Case with Comparsion Operatior..
+
+
+// var age = +prompt("Enter Your Age..")
+// switch (true) {
+//     case (age >= 20 && age <= 25):
+//         console.log("You Are Adult..");
+//         break;
+//     case (age >= 25 && age <= 30):
+//         console.log("You are Young..");
+//         break;
+//     default:
+//         console.log("You are Kid...!");
+//         break;
+// }
