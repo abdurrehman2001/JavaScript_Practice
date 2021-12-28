@@ -461,3 +461,30 @@ function clicking() {
 // for(var i=1;i<=15;i++){
 //     console.log("i am looppiiinnggg.....!!");
 // }
+
+//                                  Break & Continue
+
+/*
+        ye continue ki example hai agr continue lgaya to loop ne direct condition
+        pe le gya neche ki statement print ni ki
+*/
+
+for (var i = 1; i <= 10; i++) {
+    if (i === 5) {
+        // document.write("Number # : " + i + "<br>")
+        continue;
+    }
+    // document.write("No # : " + i + "<br>")
+}
+
+/*
+        ye break ki example hai loop ko break lag jata hai aur ruk jata hai
+        out of loop
+*/
+
+for (var i = 1; i <= 10; i++) {
+    if(i===7){
+        break;
+    }
+    // document.write("ye hai break ====> " + i + "<br>")
+}
