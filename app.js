@@ -343,3 +343,32 @@ function subtrac(a, b) {
 }
 
 // subtrac(50, 30)
+
+
+//                    function with parameters in default value
+
+function qwe(fn = "khan", ln = "bro") {
+    console.log(fn, ln);
+}
+
+// qwe()
+
+
+//              Functions with Return Value
+
+/*
+        calculation nikali hai with the hepl of return value of function
+*/
+
+
+function sum_subject(math, eng, urdu) {
+    var calculate_of_value = math + eng + urdu;
+    return calculate_of_value;
+}
+function percentage_of_subject(val) {
+    var per = val / 400 * 100;
+    console.log(per);
+}
+var total = sum_subject(50, 30, 50);
+// percentage_of_subject(total);
+// console.log(total);
