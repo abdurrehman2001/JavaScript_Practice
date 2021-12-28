@@ -483,8 +483,36 @@ for (var i = 1; i <= 10; i++) {
 */
 
 for (var i = 1; i <= 10; i++) {
-    if(i===7){
+    if (i === 7) {
         break;
     }
     // document.write("ye hai break ====> " + i + "<br>")
+}
+
+//                         Find Even & Odd Numbers with Loops   
+
+//                                      Even
+
+/*
+        loop se even number nikalen hen simple formula se 
+*/
+
+
+// document.write("Even Number <br><br>")
+
+for (var i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
+        // document.write(i + "<br>");
+        // document.write("<br>")
+    }
+}
+
+//              Odd
+
+// document.write("Odd Number <br><br><br>")
+for (var i = 1; i <= 20; i++) {
+    if (i % 2 != 0) {
+        // document.write(i + "<br>")
+        // document.write("<br>")
+    }
 }
