@@ -385,3 +385,8 @@ function mno() {
 // mno()
 // console.log(zxy);
 
+//                              Events
+
+function clicking() {
+    console.log("i am clicking......");
+}
