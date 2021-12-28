@@ -301,10 +301,10 @@ var age = 20;
 
 */
 
-function abcd(){
+function abcd() {
     console.log("Hello World");
 }
-function zyx(){
+function zyx() {
     console.log("Hello Duniyaa....!!");
 }
 
@@ -317,3 +317,29 @@ mtlb ye k function bna k rakh diya hai...
 // zyx();
 
 //  Ye function call ho gye 
+
+
+//                               Functions with Parameters 
+
+function full_Name(fname, lname) {
+    console.log("FullName Is : " + fname + lname);
+}
+
+// full_Name('abdur rehman ', 'Ahmed');
+// full_Name("Suleman ", "Khan");
+
+//  adding
+
+function sum(a, b) {
+    console.log(a + b);
+}
+
+// sum(70, 15);
+
+//  Subtraction
+
+function subtrac(a, b) {
+    console.log(a - b);
+}
+
+// subtrac(50, 30)
