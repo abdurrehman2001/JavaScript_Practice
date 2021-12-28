@@ -428,3 +428,18 @@ function clicking() {
 //     document.write(a + " ==>> Hello World <br />");
 //     a = a - 1
 // }
+
+
+
+//                            Do While Loop
+
+/*
+    do while loop me ye faraq hai k ye pehli bar me chal jata h 
+    dusri bar me condition check krta hai aur koi faraq nahi hai 
+*/
+
+// var a = 1;
+// do {
+//     document.write(a + " Hello EveryOnee.....!! <br>")
+//     a++
+// } while (a <= 10);
