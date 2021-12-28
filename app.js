@@ -202,7 +202,7 @@ var age = 20;
 
 //                           If Else If Statement
 
-// var per = prompt("val");
+// var per = prompt("Enter Percentage..");
 
 // if (per >= 80 && per <= 100) {
 //     console.log('Topper');
@@ -279,11 +279,41 @@ var age = 20;
 
 //                            Confirm Box
 
-var box = confirm("Aur You Connect With Our Website..?")
+// var box = confirm("Aur You Connect With Our Website..?")
 
-if (box) {
-    alert("Thanks for you connect our website")
+// if (box) {
+//     alert("Thanks for you connect our website")
+// }
+// else {
+//     alert("Sorry try again later....!")
+// }
+
+
+//                                     Functions
+
+
+/*
+    Ham Function ka use is liye karte hen k code kam ho jese k agr hme ek hi code jo k bar bar 
+    use karna hai to hm us code ko function me likh denge aur phr use call kr lenge Function ko
+    bnane k liye uska keyword ata hai pehle 'function' aur phr function ka nam round bracket phr curly 
+    braket me jo coding krni ho kr te hn jo statement bi kehte hn aur signal naam hai to lower case aur name
+    agr bara hai to camel case ya phr snack case...
+
+*/
+
+function abcd(){
+    console.log("Hello World");
 }
-else {
-    alert("Sorry try again later....!")
+function zyx(){
+    console.log("Hello Duniyaa....!!");
 }
+
+/*
+ye function ko hm ne declear kr diya hai mtlb define hue hn use kahin nh hue
+mtlb ye k function bna k rakh diya hai...
+*/
+
+// abcd();
+// zyx();
+
+//  Ye function call ho gye 
