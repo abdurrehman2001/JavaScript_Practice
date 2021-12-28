@@ -443,3 +443,21 @@ function clicking() {
 //     document.write(a + " Hello EveryOnee.....!! <br>")
 //     a++
 // } while (a <= 10);
+
+
+//                                   For Loop 
+/*
+        for loop zydatar developer use krte hn ku k code shot hai iska 
+        aur ye kam ese krta hai k pehle initialization hota hai phr condition
+        check hoti hai aur statement print hoti hai statement print hone k baad 
+        increment ya decerement check hoti hai phr wapis condition ki tarf jata hai statement 
+        print hone k bd condition check nh hoti...
+*/
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log("i am for loop");
+// }
+
+// for(var i=1;i<=15;i++){
+//     console.log("i am looppiiinnggg.....!!");
+// }
