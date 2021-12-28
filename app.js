@@ -372,3 +372,16 @@ function percentage_of_subject(val) {
 var total = sum_subject(50, 30, 50);
 // percentage_of_subject(total);
 // console.log(total);
+
+//                           Global & Local Variable
+
+var abcc = "hello world";           // Global variable jo puri js me kahin bi mil skta hai
+
+function mno() {
+    var zxy = "Hello Guyss.......!!"        // local variable jo sirf function me hi milega function k bahir nh milega
+    console.log(zxy);
+    console.log(abcc);
+}
+// mno()
+// console.log(zxy);
+
