@@ -390,3 +390,41 @@ function mno() {
 function clicking() {
     console.log("i am clicking......");
 }
+
+//                                         While Loop...
+
+/*
+    Loop me pehle initialzation hota hai phr condition
+    check hoti hai aur last me increment ya decrement
+*/
+// var a = 1;
+// while (a <= 10) {
+//     document.write("Hello World <br />");
+//     a = a + 1
+// }
+
+//                           While Loop With HTML Tags....
+
+// var a = 1;
+// document.write("<ul>")
+// while (a <= 10) {
+//     document.write("<li>" + "Hello World" + "</li>");
+//     a = a + 1
+// }
+// document.write("</ul>")
+
+//                             While Loop With Number
+
+// var a = 1;
+// while (a <= 10) {
+//     document.write(a + ") Hello World <br />");
+//     a = a + 1
+// }
+
+//              Decrement While Loop
+
+// var a = 10;
+// while (a >= 1) {
+//     document.write(a + " ==>> Hello World <br />");
+//     a = a - 1
+// }
