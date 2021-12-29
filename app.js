@@ -520,8 +520,54 @@ for (var i = 1; i <= 20; i++) {
 //                                 Nested Loop
 
 for (var i = 1; i <= 100; i += 10) {
-    for (var j = i; j < i + 10; j++){
+    for (var j = i; j < i + 10; j++) {
         // document.write(j + " ")
+    }
+    // document.write("<br>")
+}
+
+//                        Nested Loop With More Example
+
+// document.write("Example One <br><br>")
+for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
+        // document.write(j + " ")
+    }
+    // document.write("<br>")
+}
+
+// document.write("<br> Example Two <br><br>")
+
+for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
+        // document.write(i + " ")
+    }
+    // document.write("<br>")
+}
+
+// document.write("<br> Example Three <br><br>")
+
+for (var i = 5; i >= 1; i--) {
+    for (var j = 1; j <= i; j++) {
+        // document.write(j + " ")
+    }
+    // document.write("<br>")
+}
+
+// document.write("<br> Example Four <br><br>")
+
+for (var i = 5; i >= 1; i--) {
+    for (var j = i; j >= 1; j--) {
+     //   document.write(j + " ")
+    }
+   // document.write("<br>")
+}
+
+// document.write("<br> Example Five <br><br>")
+
+for (var i = 5; i >= 1; i--) {
+    for(var j=1;j<=i;j++){
+        // document.write(i+" ")
     }
     // document.write("<br>")
 }
