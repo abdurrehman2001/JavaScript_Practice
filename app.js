@@ -516,3 +516,12 @@ for (var i = 1; i <= 20; i++) {
         // document.write("<br>")
     }
 }
+
+//                                 Nested Loop
+
+for (var i = 1; i <= 100; i += 10) {
+    for (var j = i; j < i + 10; j++){
+        // document.write(j + " ")
+    }
+    // document.write("<br>")
+}
