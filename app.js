@@ -526,7 +526,9 @@ for (var i = 1; i <= 100; i += 10) {
     // document.write("<br>")
 }
 
+
 //                        Nested Loop With More Example
+
 
 // document.write("Example One <br><br>")
 for (var i = 1; i <= 5; i++) {
@@ -558,16 +560,71 @@ for (var i = 5; i >= 1; i--) {
 
 for (var i = 5; i >= 1; i--) {
     for (var j = i; j >= 1; j--) {
-     //   document.write(j + " ")
+        //   document.write(j + " ")
     }
-   // document.write("<br>")
+    // document.write("<br>")
 }
 
 // document.write("<br> Example Five <br><br>")
 
 for (var i = 5; i >= 1; i--) {
-    for(var j=1;j<=i;j++){
+    for (var j = 1; j <= i; j++) {
         // document.write(i+" ")
     }
     // document.write("<br>")
 }
+
+
+//                                  13-01-2022
+
+//                               pratice for loop
+
+for (var i = 5; i >= 1; i--) {
+    for (var o = i; o >= 1; o--) {
+        // document.write(o);
+    }
+    // document.write("<br />");
+}
+
+//                                     Arrays...!    
+
+
+/*
+        array likhne ka tarika aur array ko index se target krte hen aur ye k array 
+        ka index 0 se shuru hota hai array me jitni chahiye value dal skte hen aur array me 
+        koi bhi kisam ka data dal skte hn number boolean string xyz sb
+*/
+
+var ary = [10, 20, 30, 40, 50, 60]
+// document.write(ary)
+
+//          array ko index se target
+
+
+var ary = [10, 20, 30, 40, 50, 60]
+
+// document.write(ary[0]+"<br />")
+// document.write(ary[3])
+
+
+//                                       array pr loop chalana  
+
+var ary = [10, 20, 30, 40, 50, 60]
+
+for (var t = 0; t <= 5; t++) {
+    // document.write(ary[t] +"<br />")
+}
+
+
+//                       Array pr loop aur Sum bhi kra raha hun har number ko
+
+
+var ary = [10, 20, 30, 40, 50, 60]
+var sum_add = 0;
+
+for (var t = 0; t <= 5; t++) {
+    // document.write(ary[t] +"<br />")
+    // sum_add = sum_add + ary[t]
+}
+
+// document.write("Total number Of : " + sum_add)
