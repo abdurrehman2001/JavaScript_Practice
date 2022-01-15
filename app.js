@@ -735,3 +735,21 @@ var names = ['kamran', 'zeshan', 'ashraf', 'babu', 'zulfikar']
 names.reverse()
 // document.write(names + "<br>")
 
+//                                  Pop()
+
+//    Array ka jo pop method hai wo last se value ko delete kr deta hai
+
+var namess = ['kahan', 'yahan', 'wahan', 'idar']
+// document.write(namess + "<br>")
+namess.pop()
+namess.pop()
+// document.write(namess + "<br>")
+
+//                                 Push()
+
+//          Array ka jo push method hai wo last se value add krta hai
+
+var namess = ['kahan', 'yahan', 'wahan', 'idar']
+// document.write(namess + "<br>")
+namess.push("Rauf","jabbar")
+// document.write(namess + "<br>")
