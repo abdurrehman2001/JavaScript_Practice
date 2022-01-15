@@ -689,3 +689,49 @@ for (var o = 0; o <= 3; o++) {
 }
 
 // document.write("</table>")
+
+//                                      Array Update
+
+//       Array ko update krne ka tarika
+
+var ary = ['kamran', 30, 'karachii']
+// document.write(ary + "<br>")
+ary[1] = 60
+ary[0] = 'shezad'
+ary[2] = 'lahore'
+// document.write(ary)
+
+//                                    Array Delete 
+
+//          Array delete to ho jata hai mgr space rehti hai
+
+var ary = ['kashan', 50, 'i.com', 'islamabad']
+// document.write(ary + "<br>")
+delete ary[1]
+delete ary[2]
+// document.write(ary)
+
+//                                      Array Method's
+
+//                                      Sort()
+/*
+        Array ka sort method jo hai wo kam ye krta hai k agr array me jo naam hai wo agr hme 
+        alphabetic k hisab se krna hai jo bilkul nam wasis print ho jese pehle A wale print phr B
+        phr C wale ese line wais print ho to is liye sort method use hota hai
+*/
+
+var names = ['kamran', 'zeshan', 'ashraf', 'babu', 'zulfikar']
+// document.write(names + "<br><br>")
+names.sort()
+// document.write(names + "<br><br><br>")
+
+//                                      Reverse()
+/*
+    Array ka ye wala method array ki sari value ko ulta ka deta hai
+*/
+
+var names = ['kamran', 'zeshan', 'ashraf', 'babu', 'zulfikar']
+// document.write(names + "<br><br>")
+names.reverse()
+// document.write(names + "<br>")
+
