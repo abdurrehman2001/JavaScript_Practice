@@ -751,5 +751,24 @@ namess.pop()
 
 var namess = ['kahan', 'yahan', 'wahan', 'idar']
 // document.write(namess + "<br>")
-namess.push("Rauf","jabbar")
+namess.push("Rauf", "jabbar")
 // document.write(namess + "<br>")
+
+//                                  Shift()
+/*
+    Array ka ye shift method jo hai wo shuru me se value ko delete kar deta hai
+*/
+var naam = ['karimabad', 'peshawar', 'lahore', 'punjab', 'karachi'];
+// document.write(naam + "<br><br>")
+naam.shift()
+naam.shift()
+// document.write(naam + "<br><br>")
+
+//                                  Unshift()
+/*
+    Array ka ye Unshift method shuru me se value ko add krta hai
+*/
+var naam = ['karimabad', 'peshawar', 'lahore', 'punjab', 'karachi'];
+// document.write(naam + "<br><br>")
+naam.unshift("burns Road")
+// document.write(naam + "<br><br>")
