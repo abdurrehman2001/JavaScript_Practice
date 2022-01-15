@@ -628,3 +628,42 @@ for (var t = 0; t <= 5; t++) {
 }
 
 // document.write("Total number Of : " + sum_add)
+
+//                                       15-01-2022
+
+//                              Array ko Method k zariye bnana          
+
+/*
+    Array bnane ka dusra tarika is me jo round bracket hen to us me hm koi number de den to 
+    wo smjhega k us me utni hi value aengi
+*/
+
+var ary = new Array(20, 30, 40);
+// console.log(ary[1])
+
+//  is me hm array define kr k phr neche value dal skte hen aur agr hm agr ek bech me value na 
+// dalen to wo empty le ga
+
+var arry = new Array();
+arry[0] = "khan";
+arry[1] = "sohel";
+arry[3] = "kaka";
+// console.log(arry);
+
+//     Array pr loop chala kr value get krne ka kam kr raha h jo prompt k zariye value le raha hai0 
+
+var arry = new Array(3);
+for (var g = 0; g < 3; g++) {
+    // arry[g] = prompt("Enter 3 value who different every time ... ")
+    // if (arry[g] === "") {
+    //     alert("plz enter some value")
+    // }
+}
+
+// ye array ko print krne ka kam kr raha hai 
+
+// document.write("<ul>")
+for (var p = 0; p < 3; p++) {
+    // document.write("<li>" + arry[p] + "</li>")
+}
+// document.write("</ul>")
