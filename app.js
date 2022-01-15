@@ -772,3 +772,23 @@ var naam = ['karimabad', 'peshawar', 'lahore', 'punjab', 'karachi'];
 // document.write(naam + "<br><br>")
 naam.unshift("burns Road")
 // document.write(naam + "<br><br>")
+
+//                              Concat()
+/*
+    Array ka ye method do ya do se zayda array ko milane ka kam krta hai concat ka mtlb hi 
+    milana hai marge krna hai
+*/
+var naam = ['karimabad', 'peshawar', 'lahore'];
+var naam_one = ['pakistan', 'india'];
+// document.write(naam + "<br><br><br>")
+// document.write(naam_one + "<br><br><br>")
+var naam_concat = naam_one.concat(naam)
+// document.write(naam_concat + "<br><br>")
+
+//                               Join()
+/*
+    Array ka Join method ye array ko string me convert kr deta hai 
+*/
+var names = ['kamran', 'zeshan', 'ashraf', 'babu', 'zulfikar']
+var names_join = names.join(" ")
+// console.log(names_join);
