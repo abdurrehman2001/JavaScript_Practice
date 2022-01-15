@@ -667,3 +667,25 @@ for (var p = 0; p < 3; p++) {
     // document.write("<li>" + arry[p] + "</li>")
 }
 // document.write("</ul>")
+
+
+//                            Multidimensional Arrays
+
+var multi_array = [
+    ['hammad', 10, 'matric', 'lahore'],
+    ['maaz', 12, 'first year', 'islamabad'],
+    ['kamran', 15, 'i.com', 'peshawar'],
+    ['arkam', 16, 'bba', 'karachi']
+];
+
+// document.write("<table border='1px' cellspacing='0'>")
+
+for (var o = 0; o <= 3; o++) {
+    // document.write("<tr>")
+    for (var i = 0; i <= 3; i++) {
+        // document.write("<td>" + multi_array[o][i] + "</td>")
+    }
+    // document.write("</tr>")
+}
+
+// document.write("</table>")
