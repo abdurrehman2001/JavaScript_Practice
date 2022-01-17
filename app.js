@@ -906,3 +906,27 @@ function adult_Age(age) {
 }
 // console.table(ages);
 // console.log(check_age);
+
+//                                        find()
+/*
+    Array ka ye wala method jo hai wo find krne ka kam krta hai aur isko pehle jo value
+    mil jati hai to wo aagye ki value ko check hi nh krta ruk jata hai     
+*/
+var ages = [25, 36, 50, 30];
+var check_find = ages.find(check_Ages);
+function check_Ages(age) {
+    return age > 25
+}
+console.log(check_find);
+
+//                                     findIndex()
+/*
+    Array ka ye wala method jo hai wo bilkul find ki tarhan kam krta hai bs ye index return kr
+    deta hai aur isko bi agr pehle value mil jati hai to ye aagye ja kr check hi nhi krta hai
+*/
+var ages = [5, 6, 50, 30];
+var check_find = ages.findIndex(check_Ages);
+function check_Ages(age) {
+    return age > 30
+}
+console.log(check_find);
