@@ -842,3 +842,29 @@ if (Array.isArray(count)) {
 } else {
     // alert(count + " it'snot an array")
 }
+
+//                                    indexOf()
+/*
+    Array ka method hai indexof ye array pr chalta hai aur 2 perameter leta hai pehle perameter
+    me hm value dete hn jo hme array me se dhundni hoti h phr ye hme uska index de deta h agr hm 
+    dusre perameter me value denge to us ka mtlb hai ye ussi value se dekhega jo hm dusre petrameter 
+    di hoga aur agr koi value nh milti to -1 return krta hai 
+*/
+var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+var index_of = count.indexOf('three')
+// document.write(index_of+"<br>")
+
+
+var count = ['one', 'two', 'three', 'four', 'five', 'three', 'six'];
+var index_of = count.indexOf('three', 3)
+// document.write(index_of)
+
+//                                      lastIndexOf()
+/*
+    lastindexof jo hai wo indexof ki trhn kam krta hai bs ye last se value ko check krta hai 
+    bs sai indexof ki tarhan hi hai.....!! 
+*/
+var count = ['one', 'two', 'three', 'four', 'one', 'five', 'three', 'six'];
+// console.table(count)
+var last_index_of = count.lastIndexOf("one", 3)
+// document.write(last_index_of)
