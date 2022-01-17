@@ -805,11 +805,11 @@ var names_join = names.join(" ")
 */
 
 var count = ['one', 'two', 'three', 'four', 'five', 'six'];
-var count_Slice = count.slice(1,5)
+var count_Slice = count.slice(1, 5)
 // document.write(count_Slice+"<br><br>");
 
 var count = ['one', 'two', 'three', 'four', 'five', 'six'];
-var count_Slice = count.slice(-3,-1)
+var count_Slice = count.slice(-3, -1)
 // document.write(count_Slice);
 
 //                                     Splice()
@@ -821,9 +821,24 @@ var count_Slice = count.slice(-3,-1)
 */
 var count = ['one', 'two', 'three', 'four', 'five', 'six'];
 // document.write(count+"<br>")
-count.splice(2,2,'ten')
+count.splice(2, 2, 'ten')
 // document.write(count)
 
 var count = ['one', 'two', 'three', 'four', 'five', 'six'];
-count.splice(3,1,'chuttii karoo')
+count.splice(3, 1, 'chuttii karoo')
 // document.write(count)
+
+//                              isArray()
+/*
+    ye array ka method hai jo check kr k btata h k ye aaray hai k nh
+*/
+
+// var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+// var count = "kahan";
+
+if (Array.isArray(count)) {
+
+    // alert(count + " it's an Array")
+} else {
+    // alert(count + " it'snot an array")
+}
