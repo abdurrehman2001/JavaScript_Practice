@@ -792,3 +792,38 @@ var naam_concat = naam_one.concat(naam)
 var names = ['kamran', 'zeshan', 'ashraf', 'babu', 'zulfikar']
 var names_join = names.join(" ")
 // console.log(names_join);
+
+//                                     Slice()
+/*  
+    Array ka Slice method jo hai wo hm is liye use krte hn k ye puri array me se kahin se bi
+    value ho ye get kr k la skta hai aur 2 parameter leta hai pehla parameter me hm ye btana hota
+    hai k konsi value kahan se uthani hai aur dusre parameter me hm ye btana hota h k kahan tak
+    utani h is me ek zyda kr k btani hoti h aur agr hm sirf ek parameter de denge to wo us index
+    se le kr sari value get kr k le aega parameter me value negative me bi de skte hn slice use 
+    krne k liye variable k sth use kren take wo nai array bna de
+                     ye value get krne k liye use hota hai....
+*/
+
+var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+var count_Slice = count.slice(1,5)
+// document.write(count_Slice+"<br><br>");
+
+var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+var count_Slice = count.slice(-3,-1)
+// document.write(count_Slice);
+
+//                                     Splice()
+/*
+    Array ka Splice method jo hai wo hamse 3 parameter leta hai pehle me index dusra me kitni
+    value delete krni hn tesra me nai value deni hoti hai aur ye ussi array me use ho jata h 
+    splice
+                    ye value add krne k liye use hota hai
+*/
+var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+// document.write(count+"<br>")
+count.splice(2,2,'ten')
+// document.write(count)
+
+var count = ['one', 'two', 'three', 'four', 'five', 'six'];
+count.splice(3,1,'chuttii karoo')
+// document.write(count)
