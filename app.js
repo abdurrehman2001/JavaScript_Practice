@@ -868,3 +868,12 @@ var count = ['one', 'two', 'three', 'four', 'one', 'five', 'three', 'six'];
 // console.table(count)
 var last_index_of = count.lastIndexOf("one", 3)
 // document.write(last_index_of)
+
+//                                      include()
+/*
+    ye method check krta h k value hai k nhi aur return me bs ye do hi value deta hai
+    true ya false aur ye method case sensitive check krta hai bilkul
+*/
+var count = ['one', 'two', 'three', 'four', 'five', 'three', 'six'];
+var count_include = count.includes('three')
+// console.log(count_include);
