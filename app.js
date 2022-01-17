@@ -877,3 +877,32 @@ var last_index_of = count.lastIndexOf("one", 3)
 var count = ['one', 'two', 'three', 'four', 'five', 'three', 'six'];
 var count_include = count.includes('three')
 // console.log(count_include);
+
+//                                      Some()
+/*
+    Array ka ye wala method array me ja kr check krta hai k ye agr barabar h to true ya phr 
+    false return kr deta hai basiclly dekha jae to condition k liye hai aur chota sa function 
+    bna k use krte hn nhi to hm loop lgana pr ta aur phr some me checking k time ek bi match 
+    ho gya to ye true return kr dega 
+*/
+var ages = [13, 15, 17, 20, 25, 30];
+var check_age = ages.some(adult_Age);
+function adult_Age(age) {
+    return age < 25
+}
+// console.table(ages);
+// console.log(check_age);
+
+//                                  Every()
+/*
+    Array ka ye wala method some ki trhn hi hai bs is me sari value bari honi chahiye jo 
+    hmne requirement me di hogi ni to ye false hi return krta rehga 
+*/
+
+var ages = [25, 36, 50, 30];
+var check_age = ages.every(adult_Age);
+function adult_Age(age) {
+    return age >= 25
+}
+// console.table(ages);
+// console.log(check_age);
