@@ -955,3 +955,36 @@ count.forEach(foo)
 function foo(v, i) {
     // document.write(i + " : " + v + "<br>")
 }
+
+//                                      Object
+
+/*
+    obj ko array ka advnce version kehte hn aur javascript ka dusra naam hi object hai aur ye k
+    obj k andar properties aur value hoti hen obj k andar hm kuch bhi value de skte hn aur obj 
+    dom pe direct print nh ho skta console pe hm pura obj dekh skte hn 
+*/
+
+var details = {
+    name: "abdur rehman",
+    lname: "khan",
+    age: 30,
+    educarion: "i.com",
+    fav_Food: ['biryani','karahi','kofta'],
+    fullName: function(){               //  obj me koi function bne usse method kehte hn aur ye bnane ka tarika hai
+        return this.name + ' ' + this.lname     // agr hm ussi obj se value le re hn to 'this' lga k leni prti hai value
+    },
+    salary:function(){
+        return 30000;       // ye method bna hua h is me koi value obj se ni li is direct ho gya return k baad 
+    },
+    city_names:{        // obj k andar obj
+        one:"karachi",
+        two:"peshawar",
+        three:"lahore"
+    }
+}
+// // document.write(details.name)    // Ye obj ko dom pe print krne ka tarika hai
+// console.log(details);
+// console.log(details.fav_Food[1]);   // ye obj me array print krane ka tarika hai
+// console.log(details.fullName())     // obj me method ko print krane ka tarika
+// console.log(details.salary());      // ye bi obj me method print
+// console.log(details.city_names.two);    // obj ke andar obj ko print karane ka tarika
