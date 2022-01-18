@@ -917,7 +917,7 @@ var check_find = ages.find(check_Ages);
 function check_Ages(age) {
     return age > 25
 }
-console.log(check_find);
+// console.log(check_find);
 
 //                                     findIndex()
 /*
@@ -929,4 +929,17 @@ var check_find = ages.findIndex(check_Ages);
 function check_Ages(age) {
     return age > 30
 }
-console.log(check_find);
+// console.log(check_find);
+
+//                                  Filter()
+/*
+    filter method ka kam ye h k ye array me ja kr puri array ko check krta hai aur jitne bhi
+    us condition ko cross kr dete hn to filter usko phr ek nai array me return kr deta hai 
+*/
+var ages = [5, 6, 22, 26];
+//console.log(ages);
+var check_filter = ages.filter(chck_Age);
+function chck_Age(age) {
+    return age >= 18
+}
+//console.log(check_filter);
