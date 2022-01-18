@@ -943,3 +943,15 @@ function chck_Age(age) {
     return age >= 18
 }
 //console.log(check_filter);
+//                                      forEach()
+
+/*
+    forEach array ka loop hai ek tarhan se ye value aasani k sth print kra deta hai iski hme
+    for loop ki zarurt nh prti ussi ki tarhan kam krta hai inbuilt function bi bna skte hn aur
+    alag bi
+*/
+var count = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+count.forEach(foo)
+function foo(v, i) {
+    // document.write(i + " : " + v + "<br>")
+}
