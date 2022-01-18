@@ -1036,3 +1036,18 @@ var details = {
 for (var key in details) {
     // document.write(key + " : " + details[key] + "<br>")
 }
+
+//                                        Map()
+//     map function hm log print k liye istemal nhi krte aur ye mil kr k ek value bna deta hai
+
+var ary = [
+    { name: "khan", lname: "ahmed" },
+    { name: "rauf", lname: "ibrahim" },
+    { name: "raheel", lname: "rafiq" }
+]
+
+var print_ary = ary.map(prnt)
+function prnt(v) {
+    return v.name + " " + v.lname
+}
+// document.write(print_ary)
