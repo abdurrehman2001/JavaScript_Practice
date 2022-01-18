@@ -1009,7 +1009,7 @@ var student = [
     { name: "salman", age: 22, city: "lahore" },
     { name: "kamran", age: 25, city: "quatta" },
 ]
-console.log(student);
+// console.log(student);
 
 for (var i = 0; i <= student.length; i++) {       // ye for ka loop chala kr print kraya hai
     // document.write(student[i].name + " " + student[i].age + " " + student[i].city + "<br>")
@@ -1019,4 +1019,20 @@ student.forEach(aaa)        // array ka forEach loop chalaya hai
 function aaa(v) {
     // document.write(v.name + "  " + v.age  + " " + v.city+ '<br>')
     // console.log(v.name)
+}
+
+//                                  for in loop
+/*
+    for in loop ye obj pe chalta hai aur asani k sth value ko print kra deta hai
+*/
+var details = {
+    name: "abdur rehman",
+    lname: "khan",
+    age: 30,
+    subject: "Science",
+    educarion: "i.com",
+    fav_Food: ['biryani', 'karahi', 'kofta'],
+}
+for (var key in details) {
+    // document.write(key + " : " + details[key] + "<br>")
 }
