@@ -1002,3 +1002,21 @@ obj.salary = function () {
 // console.log(obj);
 // console.log(obj['age']);    //  ye obj ko access krne ka dusra tarika h 
 // console.log(obj.salary());
+
+//                              Array Of Objects
+var student = [
+    { name: "rahul", age: 20, city: "karachi" },
+    { name: "salman", age: 22, city: "lahore" },
+    { name: "kamran", age: 25, city: "quatta" },
+]
+console.log(student);
+
+for (var i = 0; i <= student.length; i++) {       // ye for ka loop chala kr print kraya hai
+    // document.write(student[i].name + " " + student[i].age + " " + student[i].city + "<br>")
+}
+
+student.forEach(aaa)        // array ka forEach loop chalaya hai
+function aaa(v) {
+    // document.write(v.name + "  " + v.age  + " " + v.city+ '<br>')
+    // console.log(v.name)
+}
