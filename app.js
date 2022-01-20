@@ -869,7 +869,7 @@ var count = ['one', 'two', 'three', 'four', 'one', 'five', 'three', 'six'];
 var last_index_of = count.lastIndexOf("one", 3)
 // document.write(last_index_of)
 
-//                                      include()
+//                                            includes()
 /*
     ye method check krta h k value hai k nhi aur return me bs ye do hi value deta hai
     true ya false aur ye method case sensitive check krta hai bilkul
@@ -878,7 +878,7 @@ var count = ['one', 'two', 'three', 'four', 'five', 'three', 'six'];
 var count_include = count.includes('three')
 // console.log(count_include);
 
-//                                      Some()
+//                                               Some()
 /*
     Array ka ye wala method array me ja kr check krta hai k ye agr barabar h to true ya phr 
     false return kr deta hai basiclly dekha jae to condition k liye hai aur chota sa function 
@@ -893,7 +893,7 @@ function adult_Age(age) {
 // console.table(ages);
 // console.log(check_age);
 
-//                                  Every()
+//                                            Every()
 /*
     Array ka ye wala method some ki trhn hi hai bs is me sari value bari honi chahiye jo 
     hmne requirement me di hogi ni to ye false hi return krta rehga 
@@ -907,10 +907,11 @@ function adult_Age(age) {
 // console.table(ages);
 // console.log(check_age);
 
-//                                        find()
+//                                             find()
 /*
     Array ka ye wala method jo hai wo find krne ka kam krta hai aur isko pehle jo value
-    mil jati hai to wo aagye ki value ko check hi nh krta ruk jata hai     
+    mil jati hai to wo aagye ki value ko check hi nh krta ruk jata hai    
+    hm koi ek value dhundni hui to find wo milne k bd ye dusri value check ni krta
 */
 var ages = [25, 36, 50, 30];
 var check_find = ages.find(check_Ages);
@@ -919,7 +920,7 @@ function check_Ages(age) {
 }
 // console.log(check_find);
 
-//                                     findIndex()
+//                                             findIndex()
 /*
     Array ka ye wala method jo hai wo bilkul find ki tarhan kam krta hai bs ye index return kr
     deta hai aur isko bi agr pehle value mil jati hai to ye aagye ja kr check hi nhi krta hai
@@ -931,7 +932,7 @@ function check_Ages(age) {
 }
 // console.log(check_find);
 
-//                                  Filter()
+//                                              Filter()
 /*
     filter method ka kam ye h k ye array me ja kr puri array ko check krta hai aur jitne bhi
     us condition ko cross kr dete hn to filter usko phr ek nai array me return kr deta hai 
@@ -943,7 +944,7 @@ function chck_Age(age) {
     return age >= 18
 }
 //console.log(check_filter);
-//                                      forEach()
+//                                            forEach()
 
 /*
     forEach array ka loop hai ek tarhan se ye value aasani k sth print kra deta hai iski hme
@@ -956,7 +957,7 @@ function foo(v, i) {
     // document.write(i + " : " + v + "<br>")
 }
 
-//                                      Object
+//                                                Object
 
 /*
     obj ko array ka advnce version kehte hn aur javascript ka dusra naam hi object hai aur ye k
@@ -1003,7 +1004,7 @@ obj.salary = function () {
 // console.log(obj['age']);    //  ye obj ko access krne ka dusra tarika h 
 // console.log(obj.salary());
 
-//                              Array Of Objects
+//                                         Array Of Objects
 var student = [
     { name: "rahul", age: 20, city: "karachi" },
     { name: "salman", age: 22, city: "lahore" },
@@ -1021,7 +1022,7 @@ function aaa(v) {
     // console.log(v.name)
 }
 
-//                                  for in loop
+//                                            for in loop
 /*
     for in loop ye obj pe chalta hai aur asani k sth value ko print kra deta hai
 */
@@ -1037,8 +1038,10 @@ for (var key in details) {
     // document.write(key + " : " + details[key] + "<br>")
 }
 
-//                                        Map()
+//                                                Map()
+
 //     map function hm log print k liye istemal nhi krte aur ye mil kr k ek value bna deta hai
+//     map jo hai wo obj me se value ko nikal kr array me dal deta hai nai value k sath
 
 var ary = [
     { name: "khan", lname: "ahmed" },
@@ -1051,3 +1054,96 @@ function prnt(v) {
     return v.name + " " + v.lname
 }
 // document.write(print_ary)
+
+//                                         String Method Start
+/*
+    Property me round bracket nahi lgte aur method function me lgte hn method function wese ek hi hai Length property hai
+*/
+//                                                Length    
+
+var str = "Karachi"
+var str_length = str.length
+console.log(str_length);
+
+//                                              toUpperCase()
+
+//  ye method string ko Capital me kr deta hai
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.toUpperCase()
+console.log(line_Convrt);
+
+//                                             toLowerCase()
+
+// ye method small case me convert kr deta hai
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.toLowerCase()
+console.log(line_Convrt);
+
+//                                              includes()
+
+// ye method ko agr value milti hai to true deta hai ni to false string me bi use hota hai aur array me bhi
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.includes("Language")
+console.log(line_Convrt);
+
+//                                             startsWith()
+
+// ye method includes method ki tarhan hi case sensitive hai aur shuru wala word ko find krne ka kam krta hai
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.startsWith("JavaScript")
+console.log(line_Convrt);
+
+//                                             endsWith()
+
+// ye method startwith k jesa hi h bs end se find krne ka kam krta hai
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.endsWith("Language")
+console.log(line_Convrt);
+
+//                                              search()
+
+/*
+    ye method inculde ki tarhan hi kam krta h bs ye position return krta hai mtlb k index ye 0 se count krta hui aur 
+    value nahi milti to -1 return krta hai
+*/
+
+var line = "JavaScript is a Great Language"
+var line_Convrt = line.search("Language")
+console.log(line_Convrt);
+
+//                                             match()
+
+//  ye method search ki tarhan hi kam karta hai k value dhundta aur usko mil jati hai to wo value ko array me dalta
+//  rehta hai ye bi case sensitive hai aur value ni milegi to null return kreaga
+
+var line = "JavaScript is a is Great is Language"
+var line_Convrt = line.match(/is/g)    // puri string me search krne ka ye tarika hai
+console.log(line_Convrt);
+
+//                                          replace()
+
+//  ye method jo hai wo word ko replace kr k dusra word dal deta hai aur 2 perameter leta hai
+
+var line = "JavaScript is a is Great is Language"
+var line_one = line.replace('is', 'are')    // string me diya to jo pehle value mili usko change kr diya aage wale ko change nahi kiya
+console.log(line_one);
+
+var line_Convrt = line.replace(/is/g, "are")    // ye global hi pure string me se replace kr dega
+console.log(line_Convrt);
+
+var line_change = line.replace('JavaScript', 'Python')  // ek word bi change kr skte hen
+console.log(line_change);
+
+//                                              trim()
+
+//  trim ka kam extra space ko khatam karna hai
+
+var line = "               JavaScript is a is                    ";
+alert(line)
+var line_to_trim = line.trim()
+alert(line_to_trim)
