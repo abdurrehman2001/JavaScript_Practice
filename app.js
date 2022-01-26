@@ -785,7 +785,7 @@ var naam_one = ['pakistan', 'india'];
 var naam_concat = naam_one.concat(naam)
 // document.write(naam_concat + "<br><br>")
 
-//                               Join()
+//                                                  Join()
 /*
     Array ka Join method ye array ko string me convert kr deta hai 
 */
@@ -1063,7 +1063,7 @@ function prnt(v) {
 
 var str = "Karachi"
 var str_length = str.length
-console.log(str_length);
+// console.log(str_length);
 
 //                                              toUpperCase()
 
@@ -1071,7 +1071,7 @@ console.log(str_length);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.toUpperCase()
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                             toLowerCase()
 
@@ -1079,7 +1079,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.toLowerCase()
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                              includes()
 
@@ -1087,7 +1087,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.includes("Language")
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                             startsWith()
 
@@ -1095,7 +1095,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.startsWith("JavaScript")
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                             endsWith()
 
@@ -1103,7 +1103,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.endsWith("Language")
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                              search()
 
@@ -1114,7 +1114,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a Great Language"
 var line_Convrt = line.search("Language")
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                             match()
 
@@ -1123,7 +1123,7 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a is Great is Language"
 var line_Convrt = line.match(/is/g)    // puri string me search krne ka ye tarika hai
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 //                                          replace()
 
@@ -1131,19 +1131,197 @@ console.log(line_Convrt);
 
 var line = "JavaScript is a is Great is Language"
 var line_one = line.replace('is', 'are')    // string me diya to jo pehle value mili usko change kr diya aage wale ko change nahi kiya
-console.log(line_one);
+// console.log(line_one);
 
 var line_Convrt = line.replace(/is/g, "are")    // ye global hi pure string me se replace kr dega
-console.log(line_Convrt);
+// console.log(line_Convrt);
 
 var line_change = line.replace('JavaScript', 'Python')  // ek word bi change kr skte hen
-console.log(line_change);
+// console.log(line_change);
 
 //                                              trim()
 
 //  trim ka kam extra space ko khatam karna hai
 
 var line = "               JavaScript is a is                    ";
-alert(line)
+// alert(line)
 var line_to_trim = line.trim()
-alert(line_to_trim)
+// alert(line_to_trim)
+
+//                                              charAt()
+
+// charAt wale method me hm index dete hn aur wo us index pe ja k check karta hai agr value milti hai to us index pe jo 
+// word hoga me return kr dega aur agr koi value nahi mili to null return krega
+
+var line = "JavaScript is a is Great is Language"
+var line_to_charat = line.charAt(32)
+// console.log(line_to_charat);
+
+//                                              charCodeAt()
+/*
+    charCodeAt method jo hai is me ham index denge aur hame return me us word ka number milega jo keyboard me hota hai..
+*/
+var line = "JavaScript is a is Great is Language"
+var line_to_char_Code_At = line.charCodeAt(2)
+// console.log(line_to_char_Code_At);
+
+//                                             fromCharCode()
+
+//  fromCharCode wale method me hm number denge to return me hm word return krega jo keyboard ka hota hai
+
+var value_char_code = String.fromCharCode(97)
+// console.log(value_char_code)
+
+//                                                 Split()
+//  split method jo hai string ko array me convert kr deta hai agr sirf coma diya hua to agr space ya koi word denge to
+// us value ko ya space ko gaib kr k baki value ko array me convert kr dega  
+var line = "JavaScript is a is Great is Language"
+var line_to_Split = line.split(" ") // ye space k bd se har word ko array me dal dega
+var line_to_Split = line.split("") // ye har word ko array me dal dega
+// console.log(line_to_Split);
+
+//                                                 repeat()
+
+// ye repeat method jo hai us ham koi value denge number me to wo utni bar repeat kr dega
+
+var line = "JavaScript is a is Great is Language"
+var line_to_repeat = line.repeat(4)
+// console.log(line_to_repeat);
+
+//                                               substr()
+
+/* substr method jo hai wo 2 parameter leta hai pehla me kahan se value uthani hai wo aur dusre parameter me jo value
+   denge wo wahan tak value liyaega slice ki trhn h bs dusra parameter chalta rehga agr pehle me value chalegi to
+   aur jo substring method hai wo bi slice ki trhn hai kafi had tak bs jo different hai wo ye k slice jo hai dusre parameter
+   ki value jahan tak chahiye hoti h jo ginta h ye nh ginta ye ek pehli value tak hi ginta hai
+*/
+var line = "JavaScript is a is Great is Language"
+// var line_to_substr = line.substr()
+
+//                                              Number Method Start
+
+//                                                  Nummber()
+// ye string ko number me convert kr deta hai 
+var xyz = "20";
+var num = Number(xyz)
+// console.log(num)
+
+//                                                  parseInt()
+
+//  agr koi value jo point me hai aur point se pehle ki value dikhani hai to wo ye method kam krta hai
+
+var xyz = "101.202";
+var num = parseInt(xyz)
+// console.log(num)
+
+//                                                  parseFloat()
+
+//  value me dot bi return krega baki parseInt ki trhn hi kam krti h
+
+var xyz = "101.202";
+var num = parseFloat(xyz)
+// console.log(num)
+
+//                                                  isFinite()
+
+// ye check krta hai k finite h k nahi
+
+var xyz = 102.949191;
+var num = Number.isFinite(xyz)
+// console.log("Finite " + num)
+
+//                                                  isInteger()
+
+// ye check krta hai k Integer h k nahi agr ye value coma me di hui hogi to false ajaega integer value wo hoti hai jis me
+// dot nh aa ra ho
+
+var xyz = 10291;
+var num = Number.isInteger(xyz)
+// console.log("Integer " + num)
+
+//                                                  toFixed()
+
+// ye value ko fixed kr deta hai
+
+var xyz = 102.949191;
+// var num = xyz.toFixed(5)
+// console.log(num)
+
+//                                                  toPrecision()
+// ye check krta hai k finite h k nahi
+var xyz = 102.949191;
+// var num = xyz.toPrecision(1)
+// console.log(num)
+
+//                                                   Math Method Start
+
+//                                                      Ceil(x)
+//  iska kam ye hai k upper value dega aur mains me hai to lower value return krega
+
+var num = Math.ceil(2.30)
+// console.log(num);
+
+//                                                      floor()
+// iska kam ye hai k ye lower value return krega aur mains me upper value return krega
+var num = Math.floor(2.30)
+// console.log(num);
+
+//                                                     round()
+// ye method ki value point k baad 5 se upr hai to ye return me upper value return krega aur agr koi value point 5 se
+// neche hai to lower value return krega 
+var num = Math.round(6.50)
+// console.log(num);
+
+//                                                  trunc()
+// ye value point k baad ki value nahi leti bs point tak ki value return kr deti hai
+var num = Math.trunc(58.62)
+// console.log(num);
+
+//                                                  max()
+// ye method jo hai is me hm jitni chahiye value dal den return ham ko ye bari value hi dega 
+var num = Math.max(10, 2, 3, 80, 25, 100)
+// console.log(num);
+
+//                                                 min()
+// ye method hame sab se choti value la kr dega
+var num = Math.min(20, 3, 7, 25)
+// console.log(num);
+
+//                                                sqrt()
+// ye method square root nikalne ka kaam krta hai
+var num = Math.sqrt(64)
+// console.log(num);
+
+//                                                cbrt()
+// ye method Cube root nikalne ka kam krti hai
+var num = Math.cbrt(125)
+// console.log(num);
+
+//                                                  pow(x,y)
+//  ye method power of ka kam krta hai
+var num = Math.pow(2, 5)
+// console.log(num);
+
+//                                                  random()
+// ye method me agr hm kuch na den to ye 0 se 1 tak ki value dega decimal me 16 tak value hongi
+//  aur agr hm har bar alag value chahiye to ese hogi
+var num = Math.floor(Math.random() * 100)
+// console.log(num);
+
+//                                                  abs()
+//  abs method absolute value return krta hai chahiye mains me ho ya plus me
+var num = Math.abs(125.3265)
+// console.log(num);
+
+//                                              Data Method 
+/*
+    Date k method use krne k liye pehle date bnani pregi phr method use hoga aur data hmre local system se uthta 
+    hai server se hai
+*/
+//                                          Date bnane ka tarika
+var now = new Date()
+// console.log(now);
+
+//                                                toDateString()
+var now = new Date()
+// console.log(now.toDateString());
